@@ -1,7 +1,7 @@
 # Single-Nucleotide-Polymorphism
 
 ## About
-This project involves a comprehensive analysis of single nucleotide polymorphisms (SNPs) using whole genome sequencing of multiple wheat accessions. The pipeline is designed to handle multiple accessions and large chromosomes, which may need to be split into smaller sub-chromosomes. It is recommended for use on a high-performance computing cluster (HPC-SLURM), though the scripts can be adapted for use on any system.
+This project involves a comprehensive analysis of single nucleotide polymorphisms (SNPs) using whole genome sequencing of multiple wheat accessions. The pipeline is designed to handle multiple accessions and large chromosomes, which may need to be split into smaller sub-chromosomes. I've aimed to include all essential steps for data processing and analysis. It is recommended for use on a high-performance computing cluster (HPC-SLURM) particularly for the initial VCF data generation, though the scripts can be adapted for use on any linux-based environment.
 
 ## Software
 The workflow utilizes the following software:
