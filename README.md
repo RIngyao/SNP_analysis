@@ -3,6 +3,8 @@
 ## About
 This project involves a comprehensive analysis of single nucleotide polymorphisms (SNPs) using whole genome sequencing of multiple wheat accessions. The pipeline is designed to handle multiple accessions and large chromosomes, which may need to be split into smaller sub-chromosomes. I've aimed to include all essential steps for data processing and analysis. It is recommended for use on a high-performance computing cluster (HPC-SLURM) particularly for the initial VCF data generation, though the scripts can be adapted for use on any linux-based environment.
 
+The analysis is carried out using bash shell and R programming, so basic knowledge in this area is expected.
+
 ## Software
 The workflow utilizes the following software:
 1. GATK4 (v4.5)
