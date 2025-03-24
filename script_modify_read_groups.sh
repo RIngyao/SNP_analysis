@@ -16,7 +16,7 @@
 
 
 #------------Generate unique ID ------------------------------
-# extract the read group platform unit (RGPU) from fastq:
+# extract the read group platform unit (RGPU): I generated  uniq ID from fastq and accession name
 # 	zcat ${dir}_fastq.gz | head -n 1 | cut -c2-37 |  awk -v name="$dir", '{print name $1}' >> RGPU.txt
 # example output of sample1 using the above command:
 #	sample1 A01412:34:H7MK3DSXC:1:1101:1542:1000
