@@ -16,6 +16,7 @@
 
 
 #------------Generate unique ID ------------------------------
+# read group can also be generated from bam 
 # extract the read group platform unit (RGPU): I generated  uniq ID from fastq and accession name
 # 	zcat ${dir}_fastq.gz | head -n 1 | cut -c2-37 |  awk -v name="$dir", '{print name $1}' >> RGPU.txt
 # example output of sample1 using the above command:
@@ -73,6 +74,7 @@ func_mod(){
 batch=4
 count=0
 
+# recomend to use GNU parallel, instead of for loop
 while read -r dir; do
 
 	((count++ %  batch == 0)) && wait
